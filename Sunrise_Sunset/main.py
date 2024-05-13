@@ -17,4 +17,4 @@ if not iss.IssUpOnCurrentCity():
     mail.SendingMail(subject="ISS NOT YOUR DESTINATION", message= msg)
 else:
     msg = "Look UP! The ISS is there"
-    mail.SendingMail(subject="Look Up!", message= msg)
+    mail.SendingMail(subject="Look Up!", message= msg) 
